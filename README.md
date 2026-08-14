@@ -1,19 +1,89 @@
 # ANDULUSIA ENVIRONMENTAL INTELLIGENCE (AEI)
 
-AEI is an African environmental intelligence and digital-twin platform.
+**AEI Water Intelligence** is the first commercial product of ANDULUSIA ENVIRONMENTAL INTELLIGENCE: an African environmental-intelligence and digital-twin platform for water infrastructure.
 
-## First commercial product: AEI Water Intelligence
+> **Scope lock:** Water first. AEI Air, Waste, Climate and Nature remain future modules until the core Water platform is proven.
 
-The first MVP is deliberately constrained to water operations: water loss, leak/anomaly detection, abnormal pressure/flow, reservoir and tank monitoring, environmental/climate risk, asset monitoring, evidence-backed AI alerts, inspection/action workflows, human approvals, audit trails and environmental reporting.
+## Product principle
 
-### Product principle
+**AI detects, predicts and recommends. Humans approve consequential actions.** Every AI recommendation must contain evidence, source, timestamp, confidence and a concise reasoning summary.
 
-AI detects, predicts and recommends. Humans approve consequential actions. Every AI recommendation must contain evidence, source, timestamp, confidence and a concise reasoning summary.
+## Working MVP
 
-### Core architecture
+This repository contains a dependency-light browser MVP designed to be demonstrable before field hardware is available. It includes:
 
-Sensors / APIs / GIS / weather → ingestion → environmental data lake → digital twin → time-series engine → anomaly detection → AI environmental intelligence → risk scoring → human decision workflow → action → audit/evidence store.
+- responsive PLC/HMI-inspired command centre
+- operational geospatial map surface
+- organisations / sites / assets / sensors
+- deterministic sensor simulator
+- leak, pressure, reservoir and pump-health scenarios
+- live telemetry and sensor health
+- alert centre
+- water-system digital twin
+- evidence-backed AI risk brief
+- explicit **Approve / Amend / Reject** decision boundary
+- inspection ticket creation after approval
+- evidence store and audit log
+- environmental/operational reports
+- integration boundary for LoRaWAN, MQTT, Modbus, HTTP and CSV
 
-### Scope discipline
+### Run locally
 
-AEI Air, Waste, Climate and Nature are future modules. They are not part of the Water MVP until the core platform is proven.
+```bash
+npm run check
+npm run serve
+```
+
+Then open `http://localhost:4173`.
+
+No npm dependency installation is required for the current demo.
+
+## Architecture
+
+```text
+Sensors / APIs / GIS / weather
+          ↓
+      ingestion
+          ↓
+environmental data lake
+          ↓
+    digital twin
+          ↓
+ time-series engine
+          ↓
+ anomaly detection
+          ↓
+AI environmental intelligence
+          ↓
+     risk scoring
+          ↓
+ HUMAN DECISION GATE
+          ↓
+  inspection / action
+          ↓
+ audit + evidence store
+```
+
+## Repository structure
+
+```text
+index.html                     browser entry
+src/data.js                    deterministic African demo dataset
+src/simulator.js               simulated telemetry adapter
+src/app.js                     command-centre application and workflows
+src/styles.css                 industrial UI system
+db/schema.sql                  production-oriented PostgreSQL schema
+docs/PRODUCT_SPEC.md           MVP scope, UX/UI/CX and acceptance criteria
+docs/ARCHITECTURE.md           data, AI and digital-twin architecture
+docs/ROADMAP_12_WEEKS.md       engineering roadmap
+docs/PILOT_SPEC_AND_KPIS.md    pilot design and measurable environmental KPIs
+.github/workflows/validate.yml  syntax/governance CI
+```
+
+## Seeded demonstration incident
+
+The main demo uses a fictional South African water district. A probable DMA leak is inferred from elevated night flow, downstream pressure loss and accelerated reservoir drawdown. The AI brief includes multiple evidence sources and requires a human decision before an inspection ticket can be created. It does **not** perform autonomous valve isolation or other consequential control action.
+
+## Next production engineering step
+
+Replace browser-only state with the `db/schema.sql` persistence model and a server-side ingestion/API service while retaining the simulator as a deterministic test adapter. The first live hardware integration should be MQTT or LoRaWAN for flow, pressure and reservoir-level telemetry.
