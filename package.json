@@ -1,0 +1,10 @@
+{
+  "name": "aei-water-intelligence-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ANDULUSIA ENVIRONMENTAL INTELLIGENCE — AEI Water Intelligence MVP",
+  "scripts": {
+    "check": "node --check src/data.js && node --check src/simulator.js && node --check src/app.js",
+    "serve": "python3 -m http.server 4173"
+  }
+}

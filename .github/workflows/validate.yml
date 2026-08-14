@@ -1,0 +1,22 @@
+name: Validate AEI Water MVP
+on:
+  push:
+    branches: [main, 'feat/**']
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run check
+      - name: Verify required governance text
+        run: |
+          grep -q "Humans approve consequential actions" README.md
+          grep -q "Approve / Amend / Reject" docs/PRODUCT_SPEC.md
+          grep -q "decision_required" docs/ARCHITECTURE.md
