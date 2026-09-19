@@ -20,7 +20,7 @@ export function mountLanding(app, onEnter) {
         <div class="hero-copy">
           <div class="hero-kicker">GABA / WATER INTELLIGENCE / EARTH FORWARD</div>
           <h1>Water is living infrastructure.</h1>
-          <p class="hero-lead">GABA turns flow, pressure, reservoir and asset signals into evidence-backed water intelligence—helping teams detect loss earlier, understand risk and move from signal to verified action.</p>
+          <p class="hero-lead">GABA turns flow, pressure, reservoir and asset signals into evidence-backed water intelligence-helping teams detect loss earlier, understand risk and move from signal to verified action.</p>
           <div class="hero-actions">
             <button class="marketing-enter" data-enter-platform>Enter Water Intelligence <span>↗</span></button>
             <a class="text-link" href="#research">Explore the research ↓</a>
@@ -31,14 +31,13 @@ export function mountLanding(app, onEnter) {
         <figure class="hero-landscape">
           <img src="assets/maletsunyane-falls.jpg" alt="Maletsunyane Falls in Lesotho" />
           <figcaption>
-            <span>Maletsunyane Falls / Lesotho</span>
-            <span>Water as place, system and future.</span>
+            <span>Maletsunyane Falls, Lesotho</span>
           </figcaption>
         </figure>
       </section>
 
       <section class="manifesto" id="research">
-        <div class="section-number">01 — Research premise</div>
+        <div class="section-number">01 - Research premise</div>
         <div class="manifesto-grid">
           <h2>Nature does not separate data from consequence.</h2>
           <div>
@@ -49,7 +48,7 @@ export function mountLanding(app, onEnter) {
       </section>
 
       <section class="system-story" id="system">
-        <div class="section-number">02 — The system</div>
+        <div class="section-number">02 - The system</div>
         <div class="editorial-title-row">
           <h2>From water signal<br />to verified action.</h2>
           <p>One continuous evidence chain, with human approval kept at the consequential decision boundary.</p>
@@ -71,7 +70,7 @@ export function mountLanding(app, onEnter) {
           <div class="impact-quote">“A cleaner future starts with seeing water loss before it becomes a crisis.”</div>
         </div>
         <div class="impact-copy">
-          <div class="section-number">03 — Why GABA</div>
+          <div class="section-number">03 - Why GABA</div>
           <h2>Environmental intelligence that can be acted on.</h2>
           <div class="impact-list">
             <div><strong>Earlier visibility</strong><span>Surface abnormal operating conditions before they become obvious failures.</span></div>
@@ -82,7 +81,7 @@ export function mountLanding(app, onEnter) {
         </div>
       </section>      <section class="enter-section">
         <div>
-          <div class="section-number">04 — Working prototype</div>
+          <div class="section-number">04 - Working prototype</div>
           <h2>See the water network think.</h2>
         </div>
         <button class="marketing-enter inverse" data-enter-platform>Open the GABA command centre <span>↗</span></button>
@@ -91,7 +90,7 @@ export function mountLanding(app, onEnter) {
       <footer class="marketing-footer">
         <img src="assets/gaba-logo.svg" alt="GABA Water Intelligence" />
         <p>Inspired by nature. Driven by a cleaner future.</p>
-        <p class="photo-credit">Landscape: Maletsunyane Falls, Lesotho — Tim Sandell / Wikimedia Commons, CC BY-SA.</p>
+        <p class="photo-credit">Maletsunyane Falls, Lesotho</p>
       </footer>
     </main>
   `;
