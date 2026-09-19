@@ -90,7 +90,6 @@ export function mountLanding(app, onEnter) {
       <footer class="marketing-footer">
         <img src="assets/gaba-logo.svg" alt="GABA Water Intelligence" />
         <p>Inspired by nature. Driven by a cleaner future.</p>
-        <p class="photo-credit">Maletsunyane Falls, Lesotho</p>
       </footer>
     </main>
   `;
