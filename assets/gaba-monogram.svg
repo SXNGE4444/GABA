@@ -1,1 +1,7 @@
-²ø1šYì
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">GABA monogram</title>
+  <rect width="128" height="128" rx="24" fill="#F5F1E8"/>
+  <text x="17" y="96" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="400" fill="#183C2B">G</text>
+  <path d="M45 70 C61 54 79 56 95 65 C104 70 111 69 117 64" fill="none" stroke="#183C2B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M48 76 C64 62 81 64 95 72 C104 77 111 76 118 70" fill="none" stroke="#7F927C" stroke-width="2.8" stroke-linecap="round"/>
+</svg>
