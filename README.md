@@ -50,10 +50,10 @@ For the competition flow, use the built-in **Hackathon Demo** control. It runs t
 
 ### Brand system
 
-- `assets/gaba-logo.svg` — primary GABA Water Intelligence wordmark
-- `assets/gaba-monogram.svg` — standalone G favicon / app mark
-- `assets/gaba-og.svg` — Open Graph / social-share composition
-- `assets/maletsunyane-falls.jpg` — Maletsunyane Falls visual reference used in the editorial experience (Tim Sandell / Wikimedia Commons, CC BY-SA)
+- `assets/gaba-logo.svg` - primary GABA Water Intelligence wordmark
+- `assets/gaba-monogram.svg` - standalone G favicon / app mark
+- `assets/gaba-og.svg` - Open Graph / social-share composition
+- `assets/maletsunyane-falls.jpg` - Maletsunyane Falls visual reference used in the editorial experience (Tim Sandell / Wikimedia Commons, CC BY-SA)
 
 ## Architecture
 
