@@ -1,4 +1,4 @@
-# GABA — NextStep Hacks Guided Demo
+# GABA - NextStep Hacks Guided Demo
 
 This flow is designed for a sub-5-minute judge demo.
 
