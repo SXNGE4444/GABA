@@ -44,6 +44,15 @@ Then open `http://localhost:4173`.
 
 No npm dependency installation is required for the current demo.
 
+The root experience now opens with the **GABA editorial landing page**. Select **Enter Water Intelligence** to move into the operational command centre, or open `#platform` directly.
+
+### Brand system
+
+- `assets/gaba-logo.svg` — primary GABA Water Intelligence wordmark
+- `assets/gaba-monogram.svg` — standalone G favicon / app mark
+- `assets/gaba-og.svg` — Open Graph / social-share composition
+- `assets/maletsunyane-falls.jpg` — Maletsunyane Falls visual reference used in the editorial experience (Tim Sandell / Wikimedia Commons, CC BY-SA)
+
 ## Architecture
 
 ```text

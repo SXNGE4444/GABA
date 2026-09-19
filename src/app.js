@@ -1,5 +1,6 @@
 import {roles,sites,assets,sensors,seededBrief,initialAlerts,initialTickets,auditSeed} from './data.js';
 import {SensorSimulator} from './simulator.js';
+import {mountLanding} from './landing.js';
 
 const state={section:'command',role:'Operations Controller',sensors:structuredClone(sensors),alerts:structuredClone(initialAlerts),tickets:structuredClone(initialTickets),audit:structuredClone(auditSeed),briefStatus:'awaiting-approval',scenario:'leak'};
 const nav=[['command','Command Centre'],['sites','Sites & Assets'],['sensors','Sensors'],['alerts','Alert Centre'],['twin','Digital Twin'],['ai','AI Risk Briefs'],['tickets','Inspections & Maintenance'],['evidence','Evidence Store'],['audit','Audit Log'],['reports','Reports'],['integrations','API / Integrations'],['admin','Admin']];
@@ -13,6 +14,8 @@ function toast(msg){const el=document.createElement('div');el.className='toast';
 function audit(actor,action,object,result){state.audit.unshift({time:new Date().toLocaleTimeString('en-ZA',{hour12:false}),actor,action,object,result});renderAudit();}
 
 function shell(){
+  document.body.classList.remove('marketing-mode');
+  document.body.classList.add('platform-mode');
   app.innerHTML=`<div class="app-shell">
     <aside class="sidebar" id="sidebar"><div class="brand"><div class="brand-mark"><img class="brand-symbol" src="assets/gaba-monogram.svg" alt="GABA monogram" /><div><h1>GABA</h1><p>Water Intelligence</p></div></div><div class="brand-line">Inspired by nature.<br>Driven by a cleaner future.</div></div>
       <nav class="nav">${nav.map(([id,label])=>`<button data-nav="${id}" class="${state.section===id?'active':''}"><span>${label}</span>${id==='alerts'?'<span class="tag">4</span>':''}</button>`).join('')}</nav>
@@ -80,4 +83,5 @@ function updateLive(){
  set('#cmdFlow',`${f.value} ${f.unit}`);set('#cmdPressure',`${p.value} ${p.unit}`);set('#twinFlow',`${f.value} L/s`);set('#twinPressure',`${p.value} kPa`);set('#twinLevel',`${l.value}%`);set('#simState',state.scenario);
 }
 
-shell();
+if(location.hash==='#platform') shell();
+else mountLanding(app,shell);
