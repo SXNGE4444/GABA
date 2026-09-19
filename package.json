@@ -2,7 +2,7 @@
   "name": "gaba-water-intelligence",
   "version": "0.1.0",
   "private": true,
-  "description": "GABA Water Intelligence — water-system monitoring, anomaly detection and verified environmental action",
+  "description": "GABA Water Intelligence - water-system monitoring, anomaly detection and verified environmental action",
   "scripts": {
     "check": "node --check src/data.js && node --check src/simulator.js && node --check src/landing.js && node --check src/app.js",
     "build": "node scripts/build-static.mjs",
