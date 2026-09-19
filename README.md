@@ -1,8 +1,14 @@
-# ANDULUSIA ENVIRONMENTAL INTELLIGENCE (AEI)
+<p align="center">
+  <img src="assets/gaba-logo.svg" alt="GABA Water Intelligence" width="520" />
+</p>
 
-**AEI Water Intelligence** is the first commercial product of ANDULUSIA ENVIRONMENTAL INTELLIGENCE: an African environmental-intelligence and digital-twin platform for water infrastructure.
+# GABA WATER INTELLIGENCE
 
-> **Scope lock:** Water first. AEI Air, Waste, Climate and Nature remain future modules until the core Water platform is proven.
+**Inspired by nature. Driven by a cleaner future.**
+
+**GABA Water Intelligence** is an African water-intelligence and digital-twin platform for monitoring infrastructure, detecting anomalies, supporting human decisions and measuring environmental action.
+
+> **Scope lock:** Water first. GABA is focused on water-system intelligence, operational evidence and climate-resilient infrastructure.
 
 ## Product principle
 

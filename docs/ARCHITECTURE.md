@@ -1,4 +1,4 @@
-# AEI Water — Data, AI and Digital-Twin Architecture
+# GABA Water — Data, AI and Digital-Twin Architecture
 
 ## Logical architecture
 
@@ -63,7 +63,7 @@ Aggregated telemetry, weather, GIS layers, asset metadata, ticket outcomes and e
 - Queue/event bus for telemetry fan-out and asynchronous risk processing
 
 ## AI architecture
-AEI should not use a single LLM as the anomaly detector.
+GABA should not use a single LLM as the anomaly detector.
 
 1. **Rules / engineering constraints** — impossible ranges, pressure floors, reservoir operating bands, stale sensors.
 2. **Statistical anomaly layer** — rolling baseline, median/MAD, z-score variants, changepoint and seasonality-aware deviation.

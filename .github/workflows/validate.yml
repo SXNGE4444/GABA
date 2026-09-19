@@ -1,4 +1,4 @@
-name: Validate AEI Water MVP
+name: Validate GABA Water MVP
 on:
   push:
     branches: [main, 'feat/**']

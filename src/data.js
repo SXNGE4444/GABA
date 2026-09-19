@@ -55,7 +55,7 @@ export const initialTickets = [
 ];
 
 export const auditSeed = [
-  {time:'23:18:31',actor:'AEI Intelligence',action:'AI risk brief created',object:'BR-2026-0814-017',result:'Human approval required'},
+  {time:'23:18:31',actor:'GABA Intelligence',action:'AI risk brief created',object:'BR-2026-0814-017',result:'Human approval required'},
   {time:'23:18:14',actor:'Anomaly Engine',action:'Cross-sensor correlation',object:'DMA K-17',result:'Leak probability 0.94'},
   {time:'23:05:09',actor:'Simulator Adapter',action:'Telemetry ingested',object:'F-K17-IN / P-K17-DN',result:'Validated'},
   {time:'22:42:50',actor:'N. Dlamini',action:'Alert acknowledged',object:'AL-012',result:'Investigation assigned'}

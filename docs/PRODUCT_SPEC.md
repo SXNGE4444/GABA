@@ -1,7 +1,7 @@
-# AEI Water Intelligence — MVP Product Specification
+# GABA Water Intelligence — MVP Product Specification
 
 ## Product objective
-AEI Water Intelligence is an operational decision-support platform for African water infrastructure. The MVP must demonstrate that heterogeneous environmental and operational signals can be converted into evidence-backed anomalies, human-reviewed recommendations, field actions and auditable outcomes.
+GABA Water Intelligence is an operational decision-support platform for African water infrastructure. The MVP must demonstrate that heterogeneous environmental and operational signals can be converted into evidence-backed anomalies, human-reviewed recommendations, field actions and auditable outcomes.
 
 ## Initial users
 - Municipal water services and water utilities
@@ -58,7 +58,7 @@ AEI Water Intelligence is an operational decision-support platform for African w
 - Data completeness and sensor uptime
 
 ## Non-goals for Water MVP
-- AEI Air / Waste / Nature modules
+- Future GABA environmental intelligence modules
 - Fully autonomous SCADA actuation
 - Regulatory compliance certification
 - Production billing / customer metering

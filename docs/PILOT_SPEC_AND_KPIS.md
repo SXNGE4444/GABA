@@ -1,4 +1,4 @@
-# AEI Water — Pilot Specification and Environmental KPIs
+# GABA Water — Pilot Specification and Environmental KPIs
 
 ## Recommended pilot shape
 - Duration: 8–12 weeks after baseline commissioning
@@ -10,7 +10,7 @@
 
 ## Pilot stages
 1. **Baseline** — asset registry, sensor QA, 2–4 weeks historical/observed baseline where practical.
-2. **Observe** — AEI runs in shadow mode; no operational recommendation is acted on without existing procedures.
+2. **Observe** — GABA runs in shadow mode; no operational recommendation is acted on without existing procedures.
 3. **Decision-support** — evidence-backed alerts reviewed by authorised staff.
 4. **Field verification** — inspections confirm/deny anomalies and capture evidence.
 5. **Outcome evaluation** — compare detection accuracy, response time and water-loss indicators against baseline.
@@ -23,7 +23,7 @@
 - Estimated water saved after verified intervention, m³ and m³/day
 
 ### Detection performance
-- Verified anomaly precision: confirmed events / investigated AEI events
+- Verified anomaly precision: confirmed events / investigated GABA events
 - False-positive rate
 - Median anomaly lead time vs existing detection method
 - Confidence calibration by risk class
@@ -68,4 +68,4 @@
 - Audit export
 
 ## Pilot success threshold
-A pilot should not be judged by the number of alerts. It succeeds if AEI produces **fewer, more useful, verifiable interventions** that reduce detection time, improve operational accountability and demonstrate measurable water/environmental value.
+A pilot should not be judged by the number of alerts. It succeeds if GABA produces **fewer, more useful, verifiable interventions** that reduce detection time, improve operational accountability and demonstrate measurable water/environmental value.

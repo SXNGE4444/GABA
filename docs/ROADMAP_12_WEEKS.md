@@ -1,4 +1,4 @@
-# AEI Water Intelligence — 12-Week Engineering Roadmap
+# GABA Water Intelligence — 12-Week Engineering Roadmap
 
 ## Week 1 — Foundation and governance
 - Product boundaries, threat model, user roles, engineering glossary

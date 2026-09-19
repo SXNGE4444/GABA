@@ -1,4 +1,4 @@
--- AEI Water Intelligence production-oriented relational schema baseline.
+-- GABA Water Intelligence production-oriented relational schema baseline.
 -- PostgreSQL; enable PostGIS/TimescaleDB in deployment where available.
 
 create extension if not exists pgcrypto;
