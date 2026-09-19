@@ -4,7 +4,7 @@ export class SensorSimulator {
     this.sensors = structuredClone(seedSensors);
     this.onTick = onTick;
     this.timer = null;
-    this.scenario = 'leak';
+    this.scenario = 'normal';
     this.t = 0;
   }
 

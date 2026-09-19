@@ -46,6 +46,8 @@ No npm dependency installation is required for the current demo.
 
 The root experience now opens with the **GABA editorial landing page**. Select **Enter Water Intelligence** to move into the operational command centre, or open `#platform` directly.
 
+For the competition flow, use the built-in **Hackathon Demo** control. It runs the deterministic leak → anomaly → evidence → human approval → inspection → verified impact path. See `docs/HACKATHON_DEMO.md`.
+
 ### Brand system
 
 - `assets/gaba-logo.svg` — primary GABA Water Intelligence wordmark
