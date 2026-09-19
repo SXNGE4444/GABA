@@ -1,4 +1,4 @@
-# GABA Water — Data, AI and Digital-Twin Architecture
+# GABA Water - Data, AI and Digital-Twin Architecture
 
 ## Logical architecture
 
@@ -65,13 +65,13 @@ Aggregated telemetry, weather, GIS layers, asset metadata, ticket outcomes and e
 ## AI architecture
 GABA should not use a single LLM as the anomaly detector.
 
-1. **Rules / engineering constraints** — impossible ranges, pressure floors, reservoir operating bands, stale sensors.
-2. **Statistical anomaly layer** — rolling baseline, median/MAD, z-score variants, changepoint and seasonality-aware deviation.
-3. **Cross-sensor correlation** — e.g. elevated night flow + pressure drop + reservoir drawdown.
-4. **Predictive models** — later: supervised leak classification, demand forecasting, reservoir forecasting, asset failure risk.
-5. **AI reasoning layer** — turns structured anomaly evidence into a concise operational brief. It may recommend; it does not autonomously execute consequential action.
-6. **Human decision layer** — role/permission checked approval with amend/reject path.
-7. **Evaluation** — precision/recall, false-alarm rate, lead time, calibration of confidence and measured intervention outcome.
+1. **Rules / engineering constraints** - impossible ranges, pressure floors, reservoir operating bands, stale sensors.
+2. **Statistical anomaly layer** - rolling baseline, median/MAD, z-score variants, changepoint and seasonality-aware deviation.
+3. **Cross-sensor correlation** - e.g. elevated night flow + pressure drop + reservoir drawdown.
+4. **Predictive models** - later: supervised leak classification, demand forecasting, reservoir forecasting, asset failure risk.
+5. **AI reasoning layer** - turns structured anomaly evidence into a concise operational brief. It may recommend; it does not autonomously execute consequential action.
+6. **Human decision layer** - role/permission checked approval with amend/reject path.
+7. **Evaluation** - precision/recall, false-alarm rate, lead time, calibration of confidence and measured intervention outcome.
 
 ## AI risk brief contract
 ```json
