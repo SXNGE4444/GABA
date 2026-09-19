@@ -1,4 +1,4 @@
-# GABA Water Intelligence — MVP Product Specification
+# GABA Water Intelligence - MVP Product Specification
 
 ## Product objective
 GABA Water Intelligence is an operational decision-support platform for African water infrastructure. The MVP must demonstrate that heterogeneous environmental and operational signals can be converted into evidence-backed anomalies, human-reviewed recommendations, field actions and auditable outcomes.
