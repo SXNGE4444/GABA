@@ -1,19 +1,19 @@
-# GABA Water — Pilot Specification and Environmental KPIs
+# GABA Water - Pilot Specification and Environmental KPIs
 
 ## Recommended pilot shape
-- Duration: 8–12 weeks after baseline commissioning
-- Footprint: 1 organisation, 1–2 sites, 1–3 DMAs/operational zones
+- Duration: 8-12 weeks after baseline commissioning
+- Footprint: 1 organisation, 1-2 sites, 1-3 DMAs/operational zones
 - Assets: reservoir/tank, pump station, key pipeline/zone, existing meters/sensors where available
 - Telemetry: flow, pressure, level; optional water quality and equipment-health signals
 - Weather: rainfall/temperature from approved source
 - Users: operations controller, engineer/manager, environmental officer, field inspector, executive read-only
 
 ## Pilot stages
-1. **Baseline** — asset registry, sensor QA, 2–4 weeks historical/observed baseline where practical.
-2. **Observe** — GABA runs in shadow mode; no operational recommendation is acted on without existing procedures.
-3. **Decision-support** — evidence-backed alerts reviewed by authorised staff.
-4. **Field verification** — inspections confirm/deny anomalies and capture evidence.
-5. **Outcome evaluation** — compare detection accuracy, response time and water-loss indicators against baseline.
+1. **Baseline** - asset registry, sensor QA, 2-4 weeks historical/observed baseline where practical.
+2. **Observe** - GABA runs in shadow mode; no operational recommendation is acted on without existing procedures.
+3. **Decision-support** - evidence-backed alerts reviewed by authorised staff.
+4. **Field verification** - inspections confirm/deny anomalies and capture evidence.
+5. **Outcome evaluation** - compare detection accuracy, response time and water-loss indicators against baseline.
 
 ## Measurable KPIs
 ### Water efficiency
