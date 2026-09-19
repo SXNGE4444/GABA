@@ -30,12 +30,12 @@ export const sensors = [
 
 export const seededBrief = {
   id:'BR-2026-0919-017', severity:'critical', status:'awaiting-approval', siteId:'site-khula', assetId:'zone-01',
-  title:'Probable distribution leak — DMA K-17', confidence:0.94, generatedAt:'2026-09-19 21:18 SAST',
+  title:'Probable distribution leak - DMA K-17', confidence:0.94, generatedAt:'2026-09-19 21:18 SAST',
   reasoning:'Night-flow demand is 111% above the expected band while downstream pressure fell 19.7% in the same interval. Reservoir drawdown accelerated without a matching authorised consumption event. The multi-sensor pattern is consistent with a persistent distribution leak rather than normal demand variability.',
-  impact:'Estimated 1,920–2,640 m³/day at current conditions; potential escalation if pressure cycling continues.',
+  impact:'Estimated 1,920-2,640 m³/day at current conditions; potential escalation if pressure cycling continues.',
   recommendation:'Approve a priority field inspection of DMA K-17 within 2 hours. Verify acoustic/leak evidence at the eastern branch, inspect isolation valves V17-4 and V17-6, and confirm customer-side demand exceptions before any isolation decision.',
   evidence:[
-    {source:'F-K17-IN',timestamp:'2026-09-19 21:05',reading:'47.2 L/s',note:'Expected night-flow band 18–26 L/s'},
+    {source:'F-K17-IN',timestamp:'2026-09-19 21:05',reading:'47.2 L/s',note:'Expected night-flow band 18-26 L/s'},
     {source:'P-K17-DN',timestamp:'2026-09-19 21:05',reading:'338 kPa',note:'Baseline 421 kPa'},
     {source:'L-KNR-01',timestamp:'2026-09-19 21:05',reading:'63%',note:'Decline rate 2.4× expected'},
     {source:'Weather API / simulator',timestamp:'2026-09-19 21:00',reading:'0 mm/h',note:'No rainfall/demand event explaining pattern'}
